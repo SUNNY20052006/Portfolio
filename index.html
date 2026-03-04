@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyberpunk Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= BANNER ================= -->
+<section class="banner">
+    <img src="images/banner.jpg" alt="Banner" class="banner-img">
+
+    <div class="banner-buttons">
+        <button class="cyber-btn">
+            <span class="glitch" data-text="PROJECTS">PROJECTS</span>
+        </button>
+
+        <button class="cyber-btn">
+            <span class="glitch" data-text="EMAIL">EMAIL</span>
+        </button>
+    </div>
+</section>
+
+
+<!-- ================= HERO (About + Skills) ================= -->
+<section class="hero-section">
+    <div class="hero-content">
+
+        <div class="about">
+            <h2>
+                <span class="glitch" data-text="About Me">About Me</span>
+            </h2>
+            <p id="typewriter"
+               data-text="I build systems that actually work. As a backend developer with strong foundations in SQL, PHP, and Python, I focus on writing clean logic, designing efficient databases, and ensuring applications are stable, secure, and scalable. I understand how data flows, how APIs should behave, and how servers should respond under pressure. While I’m comfortable with CSS and JavaScript for building functional interfaces, my real strength lies in engineering the backbone of web applications — turning complex requirements into reliable, production-ready solutions.">
+            </p>
+        </div>
+
+        <div class="skills">
+            <h2>
+                <span class="glitch" data-text="Skills">Skills</span>
+            </h2>
+
+            <div class="skill">
+                <span>SQL</span>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>PHP</span>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="75"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <span>Python</span>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="90"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects-section">
+
+    <h2>
+        <span class="glitch" data-text="Projects">Projects</span>
+    </h2>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="thumb">
+              <img src="images\AI Web Meeting.png" alt="">
+            </div>
+            <h3>AI WEB MEETING</h3>
+
+            <div class="project-expand">
+                <div class="project-video"></div>
+                <p>
+                    Real-time chat application built using PHP and SQLite.
+                    Includes notifications, invite system, and persistent messaging.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="thumb"></div>
+            <h3>MEETING SCHEDULER</h3>
+
+            <div class="project-expand">
+                <div class="project-video"></div>
+                <p>
+                    Dynamic meeting scheduling system allowing users to create
+                    and manage meetings with a clean interface.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="thumb"></div>
+            <h3>AR GESTURE APP</h3>
+
+            <div class="project-expand">
+                <div class="project-video"></div>
+                <p>
+                    Hand gesture recognition system using Three.js
+                    allowing users to create and delete 3D objects with gestures.
+                </p>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <div class="thumb">
+              <img src="images\College Society Website.png" alt="">
+            </div>
+            <h3>College Society Website</h3>
+
+            <div class="project-expand">
+                <div class="project-video"></div>
+                <p>
+                    Mathematical modeling and outage probability analysis
+                    for cooperative communication networks.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
